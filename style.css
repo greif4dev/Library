@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} 
+
+#demo{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quadrado{
+    display: flex; 
+    flex-direction: column;
+    background:white; 
+    height: 30rem; 
+    width: 20rem; 
+    padding: 10px; 
+    margin: 5rem; 
+    border:solid; 
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#image{
+    display: flex;
+    height: 20rem;
+    width: 16rem;
+    margin-top: 50px;
+    -webkit-box-shadow: 6px 7px 49px -7px rgba(112,77,112,1);
+    -moz-box-shadow: 6px 7px 49px -7px rgba(112,77,112,1);
+    box-shadow: 6px 7px 49px -7px rgba(112,77,112,1);
+}
+
+.genesys{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+#livrosSelect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#livrosSelect > p{
+    margin-inline: 20rem;
+    font-style: oblique;
+    font-size:  large;
+}
+
+#livrosSelect > img{
+    width: 341px;
+    height: 480px;
+    vertical-align: middle;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+    flex-direction: column;
+}
+
+#changeBook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEdit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 17vh;
+}
+
+.btnlivro{
+    display: block;
+    height: 1.5cm;
+    width: 5cm;
+    font-size: large;
+}
+
+#btnCadLivro{
+    margin-top: 10rem;
+}
+
+.tamForm{
+    font-size: large;
+    height: 50px;
+    width: 15rem;
+    border-radius: 15px;
+}
